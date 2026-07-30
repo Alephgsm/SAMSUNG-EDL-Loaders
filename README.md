@@ -3,10 +3,29 @@
 [![Telegram](https://img.shields.io/badge/Telegram-@Alephgsm-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/Alephgsm)
 [![Website](https://img.shields.io/badge/Website-alephgsm.com-blue?style=flat)](https://alephgsm.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Alephgsm-181717?style=flat&logo=github)](https://github.com/Alephgsm)
+[![Firehose Pack](https://img.shields.io/badge/Firehose_Pack-2026.07.30-0B6E4F?style=flat)](https://alephgsm.com/2026/07/30/firehose/)
 
 A curated collection of **Samsung Qualcomm Firehose / EDL loaders** for servicing Samsung devices in **Emergency Download Mode (EDL)**.
 
 Maintained by **[Alephgsm](https://alephgsm.com)** — GSM Alphabet | Mobile Security Researchers.
+
+---
+
+## Latest update — Qualcomm Firehose Loader Pack (2026.07.30)
+
+We published a new overview of our organized **Qualcomm Firehose loader pack**, with a searchable device library and recent model / BIT coverage:
+
+**→ [Qualcomm Firehose Loader Pack updated 2026.07.30](https://alephgsm.com/2026/07/30/firehose/)**
+
+That post is the best place to browse brands, model numbers, and Samsung BIT variants in one place — useful if you are building your own tool or preparing remote EDL work.
+
+### Looking for a device that is not listed here?
+
+This public repository covers a solid Samsung baseline, but it is **not** the full commercial library.
+
+If the exact model (or BIT revision) you need is missing from this repo — or from the [device list on the post](https://alephgsm.com/2026/07/30/firehose/) — feel free to reach out. We can check availability and share the matching programmer when we have it.
+
+> **Please note:** additional / exclusive loaders are **not free**. They are provided as a paid package for technicians and developers who need broader coverage. Contact us on Telegram for pricing and delivery: **[@GsmCoder](https://t.me/GsmCoder)** · **[@Alephgsm](https://t.me/Alephgsm)**
 
 ---
 
@@ -18,10 +37,10 @@ These loaders are used with EDL tools such as [SharpEDLClient](https://alephgsm.
 
 - Flash firmware partitions in EDL mode
 - Unbrick / debrick Qualcomm Samsung devices
-- Read and write device storage via Firehose protocol
+- Read and write device storage via the Firehose protocol
 - Service devices when standard Download Mode is unavailable
 
-> **Note:** Each device variant (model number) has its own folder. Regional variants like `SM-G973U` and `SM-G973W` are kept separate even if they belong to the same product line.
+> **Note:** Each device variant (model number) has its own folder. Regional variants like `SM-G973U` and `SM-G973W` are kept separate even if they belong to the same product line. For many Samsung models, the correct **BIT** revision also matters — using the wrong BIT can fail even when the model number matches.
 
 ---
 
@@ -29,7 +48,11 @@ These loaders are used with EDL tools such as [SharpEDLClient](https://alephgsm.
 
 **90+ Samsung model numbers** are supported across Galaxy S, Note, A, M, Z (Fold/Flip), and Tab series.
 
-See the full list: **[DEVICE_SUPPORT.md](DEVICE_SUPPORT.md)**
+See the full list in this repo: **[DEVICE_SUPPORT.md](DEVICE_SUPPORT.md)**
+
+For the wider multi-brand firehose library and the latest additions, see the pack page:
+
+**[alephgsm.com/2026/07/30/firehose/](https://alephgsm.com/2026/07/30/firehose/)**
 
 ---
 
@@ -108,6 +131,7 @@ The [`Generic Samsung Firehose/`](Generic%20Samsung%20Firehose/) folder contains
 
 | Project | Description |
 |---------|-------------|
+| [Firehose Loader Pack (2026.07.30)](https://alephgsm.com/2026/07/30/firehose/) | Searchable multi-brand Qualcomm firehose library |
 | [SharpEDLClient](https://alephgsm.com/2024/11/21/sharpedlclient/) | Qualcomm EDL Mode client (C# / VB.NET source) |
 | [Freya](https://github.com/Alephgsm/Freya) | Samsung open-source flash tool |
 | [SharpOdinClient](https://github.com/Alephgsm/SharpOdinClient) | Samsung Download Mode protocol library |
@@ -120,15 +144,18 @@ The [`Generic Samsung Firehose/`](Generic%20Samsung%20Firehose/) folder contains
 | Channel | Link |
 |---------|------|
 | **Website** | [alephgsm.com](https://alephgsm.com) |
+| **Firehose pack post** | [alephgsm.com/2026/07/30/firehose/](https://alephgsm.com/2026/07/30/firehose/) |
 | **Telegram** | [@Alephgsm](https://t.me/Alephgsm) |
 | **GitHub** | [github.com/Alephgsm](https://github.com/Alephgsm) |
-| **Contact** | [@GsmCoder](https://t.me/GsmCoder) on Telegram |
+| **Contact / requests** | [@GsmCoder](https://t.me/GsmCoder) on Telegram |
 
 ---
 
 ## Contributing
 
-Found a missing loader or newer binary version? Open an [Issue](https://github.com/Alephgsm/SAMSUNG-EDL-Loaders/issues) or contact us on Telegram.
+Found a missing loader or a newer binary version? Open an [Issue](https://github.com/Alephgsm/SAMSUNG-EDL-Loaders/issues) or message us on Telegram.
+
+Requests for devices outside this public set are welcome — again, **paid delivery only** for exclusive / full-pack material.
 
 To reorganize or add new loaders locally, use the maintenance script:
 
@@ -146,5 +173,7 @@ These loaders are provided for **research, education, and legitimate device serv
 
 <p align="center">
   <b>Alephgsm</b> — GSM Alphabet | Mobile Security Researchers<br>
-  <a href="https://alephgsm.com">alephgsm.com</a> · <a href="https://t.me/Alephgsm">@Alephgsm</a>
+  <a href="https://alephgsm.com">alephgsm.com</a> ·
+  <a href="https://alephgsm.com/2026/07/30/firehose/">Firehose Pack 2026.07.30</a> ·
+  <a href="https://t.me/Alephgsm">@Alephgsm</a>
 </p>
