@@ -25,7 +25,7 @@ This public repository covers a solid Samsung baseline, but it is **not** the fu
 
 If the exact model (or BIT revision) you need is missing from this repo — or from the [device list on the post](https://alephgsm.com/2026/07/30/firehose/) — feel free to reach out. We can check availability and share the matching programmer when we have it.
 
-> **Please note:** additional / exclusive loaders are **not free**. They are provided as a paid package for evelopers who need broader coverage. we just help developers and if you have one device and you want repair your phone, just use tools that support your device, if you are developer/tool owner , you can contact us to get collection of firehose to adding in your tool for support devices. Contact us on Telegram for pricing and delivery: **[@GsmCoder](https://t.me/GsmCoder)** · **[@Alephgsm](https://t.me/Alephgsm)**
+> **Please note:** additional / exclusive loaders are **not free**. They are provided as a paid package for developers who need broader coverage. we just help developers and if you have one device and you want repair your phone, just use tools that support your device, if you are developer/tool owner , you can contact us to get collection of firehose to adding in your tool for support devices. Contact us on Telegram for pricing and delivery: **[@GsmCoder](https://t.me/GsmCoder)** · **[@Alephgsm](https://t.me/Alephgsm)**
 
 ---
 
